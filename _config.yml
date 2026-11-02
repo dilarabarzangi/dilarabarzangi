@@ -21,7 +21,7 @@ locale: "en-US"
 timezone: "Europe/Zurich"
 
 url: "https://dilarabarzangi.github.io"
-baseurl: ""
+baseurl: "/dilarabarzangi"
 twitter_username: username
 github_username: username
 minimal_mistakes_skin: default
