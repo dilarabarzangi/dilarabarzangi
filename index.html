@@ -1,7 +1,101 @@
+
 ---
-# You don't need to edit this file, it's empty on purpose.
-# Edit theme's home layout instead if you wanna make some changes
-# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-layout: home
-author_profile: true
+layout: single
+title: "Home"
+author_profile: false
+permalink: /
 ---
+
+<style>
+  .page__title { display: none; }
+  .page { width: 100%; }
+  .page__inner-wrap { max-width: 100%; }
+
+  .welcome {
+    background: #fff5f3;
+    border-radius: 22px;
+    padding: 55px 35px;
+    text-align: center;
+    margin-bottom: 45px;
+  }
+
+  .welcome h1 {
+    font-size: 2.8rem;
+    color: #59434c;
+  }
+
+  .welcome p {
+    color: #806a73;
+    font-size: 1.1rem;
+  }
+
+  .flower {
+    color: #b98092;
+    font-size: 1.7rem;
+  }
+
+  .project-grid {
+    display: grid;
+    grid-template-columns: repeat(
+      auto-fit, minmax(240px, 1fr));
+    gap: 22px;
+    margin-top: 25px;
+  }
+
+  .project-card {
+    background: #fffaf8;
+    border: 1px solid #eadadd;
+    border-radius: 16px;
+    padding: 24px;
+  }
+
+  .project-card h3 { color: #59434c; }
+  .project-card p { color: #806a73; }
+</style>
+
+<div class="welcome">
+  <div class="flower">✿ ✿ ✿</div>
+
+  <h1>Hi, I'm Dilar!</h1>
+
+  <p>
+    Bachelor of Engineering in Mechanical Engineering
+  </p>
+
+  <p>
+    Welcome to my little corner of engineering,
+    design and creativity.
+  </p>
+
+  <p>
+    Mechanical Design · FEM · Robotics · Simulation
+  </p>
+</div>
+
+<h2>About Me ♡</h2>
+
+<p>
+  I am a mechanical engineering graduate
+  with a passion for mechanical design,
+  product development and engineering simulation.
+</p>
+
+<h2>My Engineering Projects ✿</h2>
+
+<div class="project-grid">
+  <div class="project-card">
+    <h3>Robotics & Mechanical Design</h3>
+    <p>
+      Exploring robot mechanisms, kinematics,
+      structural design and motion simulation.
+    </p>
+  </div>
+
+  <div class="project-card">
+    <h3>CAD & Finite Element Analysis</h3>
+    <p>
+      Engineering design and structural
+      analysis using Inventor and HyperMesh.
+    </p>
+  </div>
+</div>
